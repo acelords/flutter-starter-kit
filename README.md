@@ -3,6 +3,9 @@
 A Flutter starter application that utilizes the BLoC Pattern.
 You can read more at [this Medium's excellent post](https://medium.com/flutter-community/handling-network-calls-like-a-pro-in-flutter-31bd30c86be1)
 
+![Screenshot](assets/images/collage2.png?raw=true "Screenshot 1")
+![Screenshot](assets/images/collage1.png?raw=true "Screenshot 2")
+
 ## Features
 - Centralized place to manage your application's colors/branding (`lib > utils > styles`)
 - Centralized place to manage your application's constants/url/keys (`lib > utils > constants`)
@@ -48,9 +51,6 @@ Say, your new `appId` is meant to be `example.company.myapp`, here's how to go a
 - Repeat the same steps for the other parts of the `namespace`, i.e. `acelords` => `example` and `starterkit` => `myapp`
 - Confirm the namespace changing in `AppManifest` and all `build,gradle` files.
 - You're good to proceed building your app.
-
-## Screenshots
-![Screenshot](assets/images/collage1.png?raw=true "Screenshot 1")
 
 ## AOB
 A few resources to get you started if this is your first Flutter project:
