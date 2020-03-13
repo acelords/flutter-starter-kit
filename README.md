@@ -17,6 +17,18 @@ You can read more at [this Medium's excellent post](https://medium.com/flutter-c
     - **views** - hold all your views/ui (*relate to views in Laravel*)
         - **partials** - hold all your commonly used widgets (ApiError, Loading)
 
+Sample pages included:
+- Splash Screen
+- Intro Screens (when app installed)
+- Homepage
+- About
+- Rate App
+- Refer a Friend
+- Login
+- flutter tips (Sample content page)
+- Unknown Page (The fallback page when router doesn't find page specified in navigation)
+- Movies List (Demonstrates BLoC Pattern when fetching a list of movies)
+
 ## Getting Started
 To safely start off your new flutter application while basing it off this project:
 - `git clone git@github.com:lexxyungcarter/flutter-starter-kit.git myapp`
@@ -37,6 +49,8 @@ Say, your new `appId` is meant to be `example.company.myapp`, here's how to go a
 - Confirm the namespace changing in `AppManifest` and all `build,gradle` files.
 - You're good to proceed building your app.
 
+## Screenshots
+![Screenshot](assets/images/collage1.png?raw=true "Screenshot 1")
 
 ## AOB
 A few resources to get you started if this is your first Flutter project:
