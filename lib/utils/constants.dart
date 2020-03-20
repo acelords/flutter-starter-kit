@@ -1,7 +1,7 @@
 import 'env.dart';
 
 class Constants {
-  static bool testing = false;
+  static bool testing = true;
 
   /// general setup
   static String appId = "space.acelords.starterkit";

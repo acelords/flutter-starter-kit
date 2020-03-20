@@ -8,6 +8,9 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // uncomment this if using google ads/services
+        // classpath 'com.google.gms:google-services:4.3.3'
     }
 }
 

@@ -64,4 +64,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // uncomment if using Firebase and Google Ads Services
+    // implementation 'com.google.firebase:firebase-analytics:17.2.3'
+    // implementation 'com.google.firebase:firebase-ads:19.0.0'
+    // implementation 'com.google.firebase:firebase-messaging:20.1.2'  // uncomment if using FCM
 }
+
+// uncomment if using Google Ads
+// apply plugin: 'com.google.gms.google-services'
