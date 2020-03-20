@@ -12,7 +12,7 @@ You can read more at [this Medium's excellent post](https://medium.com/flutter-c
 - **BLoC Pattern** when fetching and posting data over the internet.
 - **Logically & Naturally organized** files & folders.
     - **api** - hold all your common api concerns (ApiBaseHelper, ApiResponse, AppException)
-    - **blocs** - hold all your blocs (Streams - provide data to the views *relate to controllers in Laravel*)
+    - **blocs** - hold all your blocs (Streams - provide data to the views. *relate to controllers in Laravel*)
     - **models** - hold all your models (*relate to models in Laravel*)
     - **repositories** - hold all your repositories (CRUD operations)
     - **responses** - hold all your responses 
@@ -124,4 +124,4 @@ Suggestions are welcome and any contributions whatsoever are highly valued. If f
 ## Credits
 - [Lexx YungCarter](https://github.com/lexxyungcarter)
 - [AceLords](mailto:info@acelords.space)
-- 
+- Google - For creating Flutter!
