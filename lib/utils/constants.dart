@@ -1,5 +1,3 @@
-import 'env.dart';
-
 class Constants {
   static bool testing = true;
 
@@ -54,7 +52,7 @@ class Constants {
   static String vipCoinsDateKey = "vip_coins_date";
 
   // api keys
-  static String moviesApiKey = Env.moviesApiKey; // e.g. "bff708fnwFwef9832ed927da1d";
+  static String moviesApiKey = "API_KEY"; // e.g. "bff708fnwFwef9832ed927da1d"; or Env.moviesApiKey;
 
   /// api routes
   static String apiBaseUrl = "http://api.themoviedb.org/3/";

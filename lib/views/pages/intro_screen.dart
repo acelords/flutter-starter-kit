@@ -14,7 +14,7 @@ class IntroScreenPage extends StatefulWidget {
 
 class _IntroScreenPageState extends State<IntroScreenPage> {
   static final List<String> images = [
-    'assets/images/undraw_design_notes_8dmv.png',
+    'assets/images/acelords_brand.png',
     'assets/images/undraw_happy_music_g6wc.png',
     'assets/images/undraw_the_world_is_mine_nb0e.png',
   ];
@@ -26,16 +26,16 @@ class _IntroScreenPageState extends State<IntroScreenPage> {
   ];
 
   static final List<String> descriptions = [
-    'Built by Lexx yungCarter',
+    'Built by Lexx YungCarter',
     'A Proud product of AceLords System Engineers',
     'Just start coding!',
   ];
 
   final pages = [
     PageViewModel(
-      pageColor: const Color.fromRGBO(22, 160, 133, 1),
+      pageColor: Styles.appPrimaryColor,
       // iconImageAssetPath: 'assets/air-hostess.png',
-      bubble: Image.asset(images[0]),
+      bubble: Image.asset(images[1]),
       title: Text(titles[0]),
       body: Text(descriptions[0]),
       titleTextStyle: TextStyle(fontFamily: 'Radicals', color: Colors.white),
@@ -45,7 +45,7 @@ class _IntroScreenPageState extends State<IntroScreenPage> {
         fontStyle: FontStyle.italic,
       ),
       mainImage: Image.asset(
-        images[1],
+        images[0],
         height: 285.0,
         width: 285.0,
         alignment: Alignment.center,
@@ -53,11 +53,11 @@ class _IntroScreenPageState extends State<IntroScreenPage> {
     ),
     PageViewModel(
       pageColor: const Color(0xFF8BC34A),
-      iconImageAssetPath: images[1],
+      iconImageAssetPath: images[2],
       title: Text(titles[1]),
       body: Text(descriptions[1]),
       mainImage: Image.asset(
-        images[2],
+        images[1],
         height: 285.0,
         width: 285.0,
         alignment: Alignment.center,
@@ -71,11 +71,11 @@ class _IntroScreenPageState extends State<IntroScreenPage> {
     ),
     PageViewModel(
       pageColor: const Color.fromRGBO(22, 160, 133, 1),
-      iconImageAssetPath: images[2],
+      iconImageAssetPath: images[1],
       title: Text(titles[2]),
       body: Text(descriptions[2]),
       mainImage: Image.asset(
-        images[1],
+        images[2],
         height: 285.0,
         width: 285.0,
         alignment: Alignment.center,

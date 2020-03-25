@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:starterkit/utils/constants.dart';
+import 'package:starterkit/utils/styles.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -17,7 +18,7 @@ class _DashboardPageState extends State<DashboardPage> {
         padding: EdgeInsets.all(Constants.commonPadding),
         child: ListView(
           children: <Widget>[
-
+            Center(child: Text("Welcome Home", style: Styles.h1,)),
           ],
         ),
       ),

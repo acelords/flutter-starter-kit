@@ -5,7 +5,7 @@ import 'package:flutter_native_admob/flutter_native_admob.dart';
 class AdmobConstants {
   static bool testing = true;
 
-  static String appId = 'ca-app-pub-';
+  static String appId = 'Your_Admob_App_ID';
 
   static String realAdsBannerUnitId = 'ca-app-pub-';
   static String realAdsInterstitialUnitId = 'ca-app-pub-';

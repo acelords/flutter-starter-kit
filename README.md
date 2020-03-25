@@ -5,6 +5,7 @@ You can read more at [this Medium's excellent post](https://medium.com/flutter-c
 
 ![Screenshot](assets/images/collage2.png?raw=true "Screenshot 1")
 ![Screenshot](assets/images/collage1.png?raw=true "Screenshot 2")
+![Screenshot](assets/images/screenshot3.jpg?raw=true "Screenshot 3")
 
 ## Features
 - Centralized place to manage your application's colors/branding (`lib > utils > styles`)
@@ -79,7 +80,7 @@ When building your app, you may need to set some things to testing (such as **Go
 
 Also ensure you have provided your correct Google Ad Units in `admob_constants.dart` file. This way, you'll ensure your app displays correct ads in PlayStore.
 
-> NB: To deploy FLutter app to store for the first time, you might need to read up on [How To](https://flutter.dev/docs/deployment/android). These instructions assume you already know how to. 
+> NB: To deploy Flutter app to store for the first time, you might need to read up on [How To](https://flutter.dev/docs/deployment/android). These instructions assume you already know how to. 
 
 ### Google AdMob
 To setup Google Ads, 
@@ -87,6 +88,14 @@ To setup Google Ads,
 - Update the app's `build.gradle` (located under `android > app > build.gradle`) and go to line `68`. Update as instructed in the comments. 
 - Update the projects' `build.gradle` (located under `android > build.gradle`) and go to line `12`. Update as instructed in the comments. 
 
+Remember to update **Your_Admob_App_ID** in the respective platforms. 
+##### For iOS
+- Go to `ios > Runner > Info.plist` file
+- Navigate to line `#45` and update **Your_Admob_App_ID** accordingly.
+
+##### For Android
+- Go to `android > app > src > main > AndroidManiifest.xml` file
+- Navigate to line `#16` and update **Your_Admob_App_ID** accordingly.
 
 ### FaceBook Ads
 The setup for facebook ads is similar. The same file `lib > utils > admob_constants.dart` can be used/modified or another new file created for easier ads management.
@@ -103,6 +112,15 @@ For apps requiring many topics, you can register multiple topics as required.
 > NB: Ensure you understand FCM from the developers console at Google. A medium article is under authoring to explain this further.
 
 In case you need the **Firebase Functions** setup project, contact us and we'll gladly organize how. It is written in **Node**. **Firebase Functions** can automatically send notifications to your users when a CRUD operation happens in **Firebase CloudStore** e.g. a new order, a new blog post, a team won, or an invoice payment. Your imagination is the limit.
+
+## Updating Launcher Icon
+Design your app logo, preferably in **1024x1024** size (px). 
+Once done, open [https://appicon.co/#app-icon](https://appicon.co/#app-icon) in your browser and generate a new set of icons.
+- Place **appstore.png** to `assets > icon` and rename it to **icon.png**
+- Copy the other folders to their respective locations. For instance, on android it is `android > app > src > main > res`.
+> NB: You might need to manually remove **Icon** files from the folders. The website weirdly adds the unnecessary files, hindering a successful build
+- Once done, run this command in terminal: `flutter pub run flutter_launcher_icons:main`
+ 
 
 ## AOB
 A few resources to get you started if this is your first Flutter project:

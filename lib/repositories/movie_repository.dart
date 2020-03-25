@@ -1,4 +1,3 @@
-
 /*
 use a Repository class which going to act as the inter-mediator and
 a layer of abstraction between the APIs and the BLOC.

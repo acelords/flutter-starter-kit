@@ -27,6 +27,7 @@ dependencies:
   cupertino_icons: ^0.1.3
   device_info: ^0.4.2+1
   get_version: ^0.2.1
+  faker: ^1.2.1
   flutter_launcher_icons: ^0.7.4
   flutter_rating_bar: ^3.0.1+1
   flutter_share_me: ^0.9.1
@@ -34,7 +35,7 @@ dependencies:
   http: ^0.12.0+4
   intro_views_flutter: ^2.8.0
   launch_review: ^2.0.0
-  material_design_icons_flutter: ^3.4.5045
+  material_design_icons_flutter: ^4.0.5045
   random_string: ^2.0.1
   share: ^0.6.3+6
   shared_preferences: ^0.5.6+3
@@ -43,7 +44,7 @@ dependencies:
 
   # Google AdMob
   # firebase_admob: ^0.9.1+3
-  flutter_native_admob: ^1.0.0
+  flutter_native_admob: ^1.0.1
 
   # firebase
 #  firebase_core: ^0.4.4+2
