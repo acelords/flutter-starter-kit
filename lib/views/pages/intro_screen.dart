@@ -95,7 +95,7 @@ class _IntroScreenPageState extends State<IntroScreenPage> {
       builder: (context) => Container(
         color: Colors.red,
         child: Scaffold(
-          persistentFooterButtons: FakeBottomButtons(height: 40.0), // showcase admob banner
+//          persistentFooterButtons: FakeBottomButtons(height: 40.0), // showcase admob banner
           body: IntroViewsFlutter(
             pages,
             showNextButton: true,

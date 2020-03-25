@@ -5,7 +5,7 @@ You can read more at [this Medium's excellent post](https://medium.com/flutter-c
 
 ![Screenshot](assets/images/collage2.png?raw=true "Screenshot 1")
 ![Screenshot](assets/images/collage1.png?raw=true "Screenshot 2")
-![Screenshot](assets/images/screenshot3.jpg?raw=true "Screenshot 3")
+![Screenshot](assets/images/collage3.png?raw=true "Screenshot 3")
 
 ## Features
 - Centralized place to manage your application's colors/branding (`lib > utils > styles`)
