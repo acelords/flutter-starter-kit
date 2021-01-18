@@ -33,7 +33,7 @@ dependencies:
   flutter_share_me: ^0.9.1
   flutter_spinkit: ^4.1.2
   http: ^0.12.0+4
-  intro_views_flutter: ^2.8.0
+  intro_views_flutter: ^2.8.1
   launch_review: ^2.0.0
   material_design_icons_flutter: ^4.0.5045
   random_string: ^2.0.1
